@@ -22,8 +22,8 @@ class student
     }
 
     function __construct($id,$name) {
-        $this->Id= $id;
-        $this->Name=$name;
+        $this->setId($id);
+        $this->setName($name);    
     }
 
     public function Display(){
