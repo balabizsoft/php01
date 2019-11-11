@@ -21,6 +21,14 @@ class student
         $this->Name=$name;
     }
 
+    function __construct($id,$name) {
+        $this->Id= $id;
+        $this->Name=$name;
+    }
+
+    public function Display(){
+        return "Id : " . $this->Id . ", Name : " . $this->Name;
+    }
 }
 
 ?>
